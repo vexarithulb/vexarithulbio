@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vexarithul</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #1a0000;
+      color: #fff;
+      overflow-x: hidden;
+    }
+    header {
+      background: #8b0000;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 0 20px crimson;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+      color: #fff;
+      text-shadow: 0 0 15px crimson;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 10px;
+    }
+    nav a {
+      color: #ff4d4d;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #fff;
+      text-shadow: 0 0 10px #ff1a1a;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #ff4d4d;
+      text-shadow: 0 0 10px red;
+    }
+    .glow-box {
+      background: rgba(139, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px crimson;
+      margin-top: 20px;
+      transition: transform 0.3s;
+    }
+    .glow-box:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 30px #ff1a1a;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #330000;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vexarithul</h1>
+    <nav>
+      <a href="#about">Hakkımda</a>
+      <a href="#projects">Projelerim</a>
+      <a href="#features">Özellikler</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>Hakkımda</h2>
+    <div class="glow-box">
+      <p>Ben Vexarithul. Karanlıkların içinden gelen bir geliştiriciyim. Hayal gücünü kodla harmanlayarak sıra dışı projeler geliştiririm. Kırmızı, benim tutkumun rengi.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projelerim</h2>
+    <div class="glow-box">
+      <ul>
+        <li>Karanlık Günlük (Dark Diary) - Gotik bir not uygulaması</li>
+        <li>Kızıl Şifre - Şifreleme algoritması görselleştirme aracı</li>
+        <li>V-Lab - Sanal deney alanı ve simülasyonlar</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="features">
+    <h2>Özellikler</h2>
+    <div class="glow-box">
+      <ul>
+        <li>Dinamik ve şık arayüz</li>
+        <li>Mobil uyumlu tasarım</li>
+        <li>Işıltılı efektler ve animasyonlar</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Vexarithul. Tüm hakları saklıdır.</p>
+  </footer>
+</body>
+</html>
